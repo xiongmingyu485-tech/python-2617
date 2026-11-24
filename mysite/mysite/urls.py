@@ -17,6 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.http import HttpResponse
 from django.urls import path
+#123
 # 1. `admin`：是 `django.contrib.admin` 这个模块
 # 2. `site`：是 `AdminSite` 的一个实例对象（全局唯一的后台站点对象）
 # 3. `urls`：是这个对象的一个属性，返回**后台所有路由列表**（是一个 `URLResolver`）
